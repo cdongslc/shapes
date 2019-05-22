@@ -20,6 +20,6 @@ public class ParallelResonantCircuit extends ResonantCircuit
 
   public void display()
   {
-    System.out.println("For the description of the resonant frequency response, respectively in resonant frequency, bandwidth, and resonant frequency gain, as " + super.getW0() + ", " + super.getB() + ", and " + super.getK() + ", the circuit (in order of resistance, capitance, and inductance) will be: " + R + ", " + C + ", and " + L)
+    System.out.println("For the description of the resonant frequency response, respectively in resonant frequency, bandwidth, and resonant frequency gain, as " + super.getW0() + ", " + super.getB() + ", and " + super.getK() + ", the circuit (in order of resistance, capitance, and inductance) will be: " + R + ", " + C + ", and " + L);
   }
 }
